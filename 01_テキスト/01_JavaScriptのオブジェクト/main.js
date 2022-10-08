@@ -12,6 +12,20 @@ const hikakin = {
   },
 }
 
+const kohei = {
+  name: "こうへい",
+  age: 21,
+  hobbies: ["ゲーム", "テニス", "登山"],
+  isHappy: true,
+  address: {
+    country: "日本",
+    city: "神奈川",
+  },
+  sayHello: function () {
+    console.log("こんにちは")
+  },
+}
+
 // 練習問題
 // hikakin オブジェクトに入っている sayHello メソッドを実行してください。
 

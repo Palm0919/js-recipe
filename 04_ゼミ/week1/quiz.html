@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>箱根山クイズ</title>
+  </head>
+  <body>
+    <h1>箱根山クイズ</h1>
+    <h3>箱根山の標高は？</h3>
+    <div>
+      <button id="a1438">1,438 m</button>
+      <button id="a1338">1,338 m</button>
+      <button id="a1238">1,238 m</button>
+    </div>
+    <div id="answer">答えが表示されます</div>
+    <script>
+      const a1438Button = document.getElementById("a1438")
+      const a1338Button = document.getElementById("a1338")
+      const a1238Button = document.getElementById("a1238")
+
+      const answer = document.getElementById("answer")
+
+      a1438Button.onclick = function () {
+        answer.textContent = "正解！"
+      }
+      a1338Button.onclick = function () {
+        answer.textContent = "不正解"
+      }
+      a1238Button.onclick = function () {
+        answer.textContent = "不正解"
+      }
+    </script>
+  </body>
+</html>
+
+<!-- === このメッセージは消しても構いません === -->
+
+<!-- GeekSalon WebExpertコースのペアプロで使用するためのテンプレートです。 -->
+<!-- ✅ 👈のメニューから一番下の「👬」のアイコンを選んで -->
+<!--    Live Modeを「Everyone cab edit」に変更した後、 -->
+<!--    「You'
+        re
+        live!」の下、「Stop
+        Session」の上、にあるリンクをShareしましょう
+        --
+      >
+        <!-- ✅ CodeSandBoxはVS Codeとほぼ同じ様に扱えます。 -->
+<!-- ✅ 👉にある画面が実行画面です。 -->
+<!-- ✅ 👉の👇にある「Console」が実行時のConsoleになります。 -->
+<!--    たまに挙動がおかしい時があるので気をつけましょう。 -->
+
+<!-- =============================== -->

@@ -44,6 +44,11 @@
   // Githubの認証設定
   //
   "git.terminalAuthentication": true,
-  "github.gitAuthentication": true // 初回のpush時にGithub 拡張機能を使った認証を求めるようにする
+  "github.gitAuthentication": true,
+  "files.associations": {
+    "deque": "cpp",
+    "string": "cpp",
+    "vector": "cpp"
+  } // 初回のpush時にGithub 拡張機能を使った認証を求めるようにする
   // ここまで
 }
